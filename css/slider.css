@@ -1,0 +1,42 @@
+/* スライド１ */
+.test-slick {
+    width: 100%;
+    height: 50%;
+    margin: 40px 0 40px 0;
+}
+.test-slick__item {
+    width: 30%;
+    height: 100%;
+    margin: 0 20px 0 20px;
+}
+.test-slick__item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* スライド２ */
+.test-slick2 {
+    width: 100%;
+    height: 50%;
+    margin: 40px 0 40px 0;
+}
+.test-slick2__item {
+    width: 30%;
+    height: 100%;
+    margin: 0 20px 0 20px;
+}
+.test-slick2__item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 500px) {
+    .test-slick__item, .test-slick2__item
+     {
+        margin: 0 8px 0 8px;
+    }
+}
